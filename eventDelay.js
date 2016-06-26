@@ -58,7 +58,7 @@
        // Apply the delay timer to the element on each iteration
        // of the original event.
        
-       $(this).data('eventDelay', delayTimer);
+       element.data('eventDelay', delayTimer);
 
      });
 

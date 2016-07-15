@@ -15,9 +15,9 @@
   /**
    * Create the eventDelay event listener function
    *
-   * @param (string)   event    // array of desired meta tags. fallback fetches all available meta data
-   * @param (integer)  delay    // array of websites to be scraped by the meta fetcher
-   * @param (function) callback // function fires after all requested data is returned
+   * @param (string)   event    // string of comma separated event types i.e. "click tap"
+   * @param (integer)  delay    // number of milliseconds to delay before performing event
+   * @param (function) callback // callback function to be called after the event delay
    */
 
    $.fn.eventDelay = function(event, delay, callback) {
